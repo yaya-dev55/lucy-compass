@@ -1,0 +1,131 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="description" content="Contact Lucy Compass — questions about a service, a partnership, or press." />
+<meta name="theme-color" content="#111111" />
+<title>Contact — Lucy Compass</title>
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+<header class="nav">
+  <div class="nav-inner">
+    <a href="index.html" class="nav-logo">Lucy Compass</a>
+    <nav class="nav-links">
+      <div class="nav-item">
+        <a href="our-story.html">Our Story <span class="caret">&#9662;</span></a>
+        <div class="nav-dropdown">
+          <a href="lucas-li.html">Lucas Li</a>
+          <a href="master-icy.html">Master ICY</a>
+        </div>
+      </div>
+      <a href="services.html">Services</a>
+      <a href="products.html">Products</a>
+      <a href="journal.html">Journal</a>
+      <a href="contact.html" aria-current="page">Contact</a>
+    </nav>
+    <a href="https://tidycal.com/lucycompass" target="_blank" rel="noopener" class="btn btn-primary nav-cta">Book Consultation</a>
+    <button class="nav-toggle" aria-label="Open menu" aria-expanded="false">
+      <span></span><span></span>
+    </button>
+  </div>
+  <div class="nav-mobile">
+    <div class="nav-mobile-group">
+      <a href="our-story.html">Our Story</a>
+      <a href="lucas-li.html" class="nav-mobile-sub">Lucas Li</a>
+      <a href="master-icy.html" class="nav-mobile-sub">Master ICY</a>
+    </div>
+    <a href="services.html">Services</a>
+    <a href="products.html">Products</a>
+    <a href="journal.html">Journal</a>
+    <a href="contact.html">Contact</a>
+    <a href="https://tidycal.com/lucycompass" target="_blank" rel="noopener" class="btn btn-primary">Book Consultation</a>
+  </div>
+</header>
+
+<main>
+
+  <section class="page-header">
+    <div class="wrap">
+      <p class="eyebrow center">Contact</p>
+      <h1>Reach out.</h1>
+      <p class="sub center">Questions about a service, a partnership, or press — we read every message.</p>
+    </div>
+  </section>
+
+  <section class="section-ivory">
+    <div class="wrap" style="max-width:40rem;">
+
+      <form data-form="contact" class="form-grid reveal">
+        <div class="form-row-2">
+          <div class="field">
+            <label for="name">Name</label>
+            <input id="name" name="name" type="text" required />
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" required />
+          </div>
+        </div>
+        <div class="field">
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" />
+        </div>
+        <div class="field">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="6" required></textarea>
+        </div>
+        <button type="submit" class="btn btn-primary" style="justify-self:start;">Send Message</button>
+      </form>
+
+      <div class="form-success" data-form-success="contact">
+        <p class="title">Message received.</p>
+        <p class="copy">Thank you for reaching out — we'll be in touch within two business days.</p>
+      </div>
+
+    </div>
+  </section>
+
+</main>
+
+<footer class="site-footer">
+  <div class="wrap footer-inner">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p class="logo">Lucy Compass</p>
+        <p class="blurb">Ancient Chinese metaphysical wisdom, translated into modern clarity. BaZi, Feng Shui, Five Elements, and elemental discovery — for a global, modern audience.</p>
+      </div>
+      <div class="footer-col">
+        <p class="head">Explore</p>
+        <ul>
+          <li><a href="our-story.html">Our Story</a></li>
+          <li><a href="master-icy.html">Master ICY</a></li>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="products.html">Products</a></li>
+          <li><a href="journal.html">Journal</a></li>
+        </ul>
+      </div>
+      <div class="footer-col">
+        <p class="head">Connect</p>
+        <ul>
+          <li><a href="contact.html">Contact</a></li>
+          <li><a href="https://tidycal.com/lucycompass" target="_blank" rel="noopener">Book a Consultation</a></li>
+          <li class="static-text">San Francisco, California</li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; 2026 Lucy Compass. All rights reserved.</p>
+      <p class="tag">Ancient Wisdom. Modern Clarity.</p>
+    </div>
+  </div>
+</footer>
+
+<script src="js/main.js"></script>
+</body>
+</html>
